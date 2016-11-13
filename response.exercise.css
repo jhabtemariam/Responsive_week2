@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: antiquewhite;
+    font-family:cursive, Georgia, sans-serif; 
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px gray;
+}
+
+.row{
+    width:100%;
+    
+}
+
+button{
+    font-variant: small-caps;
+    font-size:1.50em;
+    box-shadow: 10px 10px 5px gray;
+    position: absolute;
+    right:0;
+    top:0;       
+    
+}
+p{
+    position: relative;
+    border: 5px solid gray;  
+    height: 200px;
+    padding:5%;
+    background-color: aquamarine;/*if browser doesn't support gradient*/
+    background: linear-gradient(#b4cbed 25%,#bdd684 75%);
+    width: 95%;
+    font-size: 1.25em;
+    overflow: hidden;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+p:first-letter{
+    text-transform: capitalize;
+}
